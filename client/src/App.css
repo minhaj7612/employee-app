@@ -1,0 +1,97 @@
+body {
+  background-color: bisque;
+}
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.formComponent {
+  background-color: bisque;
+  padding: 30px 10px;
+  height: 100vh;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.col-6 {
+  display: flex;
+  width: 48%;
+  gap: 10px;
+  flex-direction: column;
+}
+label {
+  font-weight: bold;
+  padding-right: 10px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.hobbylable {
+  font-weight: 5 00;
+}
+.employeeList {
+  width: 80%;
+  margin: 30px auto;
+}
+
+table {
+  width: 100%;
+}
+table,
+tr,
+td {
+  outline: none;
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+.employeeList th {
+  padding: 5px;
+  background-color: rgb(163, 163, 163);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search-section,
+.create-emp {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.create-emp {
+  justify-content: end;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-form form {
+  max-width: 400px;
+}
+
+.loginbtn {
+  width: 100px;
+}
